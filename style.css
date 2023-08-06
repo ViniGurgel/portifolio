@@ -244,6 +244,7 @@ font-family: 'Montserrat', sans-serif;
 
     .video__cent {
         width: 60%;
+        padding: 80px;
     }
 
 }
