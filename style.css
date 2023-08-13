@@ -230,6 +230,13 @@ font-family: 'Montserrat', sans-serif;
         width: auto;
     }
 
+    .video__cent {
+        padding: 25% 0 26% 0;
+        width: 21.5rem;
+        
+    }
+
+    
     .foto__index {
         width: 90%;
     }
@@ -242,10 +249,8 @@ font-family: 'Montserrat', sans-serif;
         width: 60%;
     }
 
-    .video__cent {
-        width: 60%;
-        padding: 80px;
-    }
+
+    
 
 }
     
