@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre mim</title>
     <link rel="stylesheet" href="./Style/style.css">
+    <title>Bordas Arredondadas com CSS</title>
+    <style type="text/css">
+        img {
+            border-radius: 25px;
+        }
+    </style>
 </head>
+
 <body>
     <header class="cabecalho">
         <nav class="cabecalho__menu">
@@ -15,14 +23,17 @@
             <a class="cabecalho__menu__link" href="projetos.html"> Projetos</a>
         </nav>
     </header>
-    <main > 
-        <video  class="video__cent" controls loop>
-            <source src="./assets/videonovidade.mp4"  type="video/mp4" >
-            <p> Infelizmente seu navegador não suporta esse vídeo!</p>
-        </video>
+    <main class="fotos__projeto">
+        <a href="https://calculadora-topaz-three.vercel.app/"> <img src="./assets/calculadora.png" class="img__projeto"></a>
+        <p class="texto__projeto"> Projeto desenvolvido em HTML | CSS | JavaScript </p>
+    
+        <a href="https://bateria-coral.vercel.app/"><img src="./assets/bateriagurgel.png" class="img__projeto"></a>
+        <p class="texto__projeto"> Projeto desenvolvido em HTML | CSS | JavaScript </p>
+        
     </main>
     <footer class="apresentacao__rodape">
         <p> Desenvolvido por Vinicius Gurgel </p>
     </footer>
 </body>
+
 </html>

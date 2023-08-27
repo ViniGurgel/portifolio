@@ -11,15 +11,16 @@
     --cor-hover: #282A3A;
 }
 
-* {margin: 0;
+* {
+    margin: 0;
     padding: 0;
 }
 
 body {
-  
+
     box-sizing: border-box;
-    background-color:var(--cor-primaria);
-    color: var(--cor-terciaria);
+    background-color: #ffffff;
+    color: #000000;
 }
 
 .cabecalho {
@@ -33,14 +34,15 @@ body {
 
 .cabecalho__menu__link {
     font-family: 'Montserrat', sans-serif;
-    font-size:1rem;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
-    
-    
+
+
 }
-.cabecalho__menu__link:hover{
+
+.cabecalho__menu__link:hover {
     background-color: var(--cor-hover);
 }
 
@@ -49,34 +51,36 @@ body {
 }
 
 .apresentacao {
-   padding: 3.9% 12%;
-   gap: 82px;
+    padding: 4.8% 12%;
+    gap: 82px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
-.apresentacao__conteudo{
+
+.apresentacao__conteudo {
     width: 50%;
     display: flex;
     flex-direction: column;
     gap: 18px;
 }
-.apresentacao__conteudo__titulo{
+
+.apresentacao__conteudo__titulo {
     font-size: 2rem;
-    font-family:'Krona one', sans-serif;
+    font-family: 'Krona one', sans-serif;
     color: var(--cor-secundaria);
-    
+
 }
 
 .apresentacao__conteudo__texto {
-font-size: 1.5rem;
-font-family: 'Montserrat', sans-serif;
-color: var(--cor-secundaria);
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    color: var(--cor-secundaria);
 
 }
 
-.apresentacao__links{
+.apresentacao__links {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -85,37 +89,39 @@ color: var(--cor-secundaria);
 
 }
 
-.apresentacao__links__subtitulo{
-font-family: 'Krona One', sans-serif;
-color: var(--cor-secundaria);
-font-weight: 400;
-font-size: 1.5rem;
-width: 50%;
+.apresentacao__links__subtitulo {
+    font-family: 'Krona One', sans-serif;
+    color: var(--cor-secundaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+    width: 50%;
 }
 
-.apresentacao__links__Links{
-display: flex;
-justify-content: center;
-gap: 10px;
-border: 1px solid var(--cor-terciaria);
-width: 90%;
-text-align: center;
-border-radius: 10px;
-font-size: 1.5rem;
-font-weight: 600;
-padding: 1px 0;
-text-decoration: none;
-color: var(--cor-secundaria);
-font-family: 'Montserrat', sans-serif;
+.apresentacao__links__Links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid var(--cor-terciaria);
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 1px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: 'Montserrat', sans-serif;
 
 }
 
-.apresentacao__foto{
+.apresentacao__foto {
+
     width: 30px;
     text-align: justify;
 }
+
 .apresentacao__links__Links:hover {
-background-color: var(--cor-hover);
+    background-color: var(--cor-hover);
 
 }
 
@@ -137,70 +143,85 @@ background-color: var(--cor-hover);
     font-family: 'Montserrat', sans-serif;
     text-align: justify;
     color: var(--cor-secundaria);
-    
-    
+
+
 }
+
 .apresentacao__about {
     padding: 9.4% 12%;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;}
-     
-     .apresentacao__curriculo {
-        padding: 2.08% 12%;
-         display: flex;
-         align-items: center;
-         justify-content: space-between;}
-         
-         .cabecalho__menu__link__curriculo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-border: 2px solid var(--cor-terciaria);
-text-align: center;
-border-radius: 10px;
-font-size: 1rem;
-padding: 0.1%;
-font-weight: 600;
-text-decoration: none;
-color: var(--cor-secundaria);
-font-family: 'Montserrat', sans-serif;
+.apresentacao__curriculo {
+    padding: 2.08% 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho__menu__link__curriculo {
+
+    border: 2px solid var(--cor-terciaria);
+    text-align: center;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 0.1%;
+    font-weight: 600;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho__menu__link__curriculo:hover {
+    background-color: var(--cor-hover);
+}
+
+.espacamento__curriculo {
+    padding: 1%;
+}
 
 
-         }
-         .cabecalho__menu__link__curriculo:hover{
-            background-color: var(--cor-hover);
-         }
-         .espacamento__curriculo{
-            padding: 1%;
-         }
-
-         .video__cent {
-            padding: 1.9%;
-            display: block;
-        width: 68%;
-        margin: 0 auto;
-         
-         }
-.foto__about{
+.foto__about {
     border-style: ridge;
     border-color: var(--cor-terciaria);
     width: 30%;
 }
 
-.foto__index{
-    width: 45.08%;
-}
-
-.foto__curriculo{
+.foto__index {
+    border-style: ridge;
+    border-color: var(--cor-terciaria);
     width: 30%;
 }
 
-@media (max-width: 967px ){
+.foto__curriculo {
+    width: 30%;
+}
+
+.fotos__projeto {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10.05% 10%;
+    gap: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.img__projeto {
+
+    width: 300px;
+    height: 300px;
+}
+
+@media (max-width: 613px) {
 
     .cabecalho {
         padding: 3%;
     }
 
-    .cabecalho__menu{
+    .cabecalho__menu {
         justify-content: center;
 
     }
@@ -212,36 +233,42 @@ font-family: 'Montserrat', sans-serif;
         width: auto;
     }
 
-        .apresentacao__conteudo{
-            padding: 5% 10%;
-            width: auto;
-            justify-content: space-between;
-                 
-        }
+    .apresentacao__conteudo {
+        padding: 5% 10%;
+        width: auto;
+        justify-content: space-between;
+
+    }
+
     .apresentacao__about {
         flex-direction: column-reverse;
         width: auto;
         justify-content: space-between;
-    gap: 50px;
+        gap: 50px;
 
     }
+
     .apresentacao__curriculo {
+        text-align: center;
         flex-direction: column-reverse;
         width: auto;
     }
 
-    .video__cent {
-        padding: 25% 0 26% 0;
-        width: 21.5rem;
-        
+    .fotos__projeto {
+        flex-direction: column-reverse;
+        width: auto;
+        gap: 50%;
+        padding: 5% 10%;
+        object-fit: cover;
+        align-items: center;
     }
 
-    
+
     .foto__index {
         width: 90%;
     }
 
-    .foto__about{
+    .foto__about {
         width: 60%;
     }
 
@@ -249,9 +276,10 @@ font-family: 'Montserrat', sans-serif;
         width: 60%;
     }
 
-
-    
-
-}
-    
+    .texto__projeto {
+        padding: 10%;
+        text-align: center;
+        gap: 10%;
+    }
+    }
 
